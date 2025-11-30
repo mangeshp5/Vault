@@ -1,0 +1,78 @@
+1. Simulate an airline seat reservation system using a sparse matrix where only selected 
+seats are booked, and efficiently display booked vs. unbooked seats. (Hint: Use 2D 
+sparse representation and display only non-zero entries.)
+2. Build a student attendance tracker where attendance records for multiple days are 
+stored in a sparse matrix. Display only the days and students with absences. (Hint: Treat 
+absences as non-zero values in a sparse structure.)
+3. Develop a movie collection search tool where movie names can be searched using both 
+linear and binary search. Compare search time on sorted vs. unsorted lists. (Hint: 
+Maintain two lists: unsorted for linear search, sorted for binary.)
+4. Create a hotel room management system where room prices can be sorted using 
+insertion, bubble and selection sort. Compare the efficiency of each for large room lists.
+(Hint: Use same data for all sorting methods and record time.)
+5. Create a hotel room management system where room prices can be sorted using quick 
+sort. Compare the efficiency of each for large room lists. (Hint: Use same data for all 
+sorting methods and record time.)
+6. Implement an expression validator to check for balanced parentheses using a stack. 
+Display valid or invalid based on proper symbol matching. (Hint: Push opening brackets; 
+pop when matching closing bracket appears.)
+7. Design a bus ticket counter simulation using a circular queue where passengers board 
+and exit efficiently. (Hint: Use front and rear logic to manage flow.)
+8. Simulate a music playlist using a doubly linked list where users can play next, previous, 
+add, or delete songs. (Hint: Use bidirectional navigation + insert/delete operations.)
+9. Implement a hospital patient record system where records are stored in a BST. Allow 
+insertion, deletion, and searching based on patient ID. (Hint: Use integer IDs as keys in 
+BST.)
+10. Create a social network friend suggestion system using graphs where each user is a 
+node. Suggest friends using BFS-based shortest paths. (Hint: Suggest nodes at level-2 
+distance.)
+Enter number of users: 5
+Friend connections (edges):
+1 2
+1 3
+2 4
+3 5
+Suggest friends for user: 1
+11. Develop a product lookup system using hashing where items are stored by SKU codes. 
+Handle collisions using linear probing. (Hint: Use open addressing to resolve collisions.)
+Enter number of products: 5
+SKUs: 101, 205, 330, 412, 101 (duplicate to test collision)
+Search SKU: 330
+12. Simulate a book-arranging robot that sorts books by their IDs using merge sort.
+13. Build a browser history manager using two stacks for back and forward navigation.
+(Hint: Push/Pop operations simulate real browser behavior.)
+14. Develop an ambulance dispatch system using a max priority queue to serve highest 
+priority cases first. (Hint: Priority determines removal order.)
+15. Create a book-return bin simulator where returned books are stacked and then 
+processed in LIFO order. (Hint: Simple stack push/pop.)
+16. Implement a railway parcel management system where parcels are stored in hash 
+tables using their tracking numbers. (Hint: Use modulo hashing + chaining.)
+17. Simulate a food delivery route planner using graphs to show all delivery paths using 
+DFS. (Hint: Treat restaurants and deliveries as nodes.)
+18. Simulate a food delivery route planner using graphs to show the shortest path 
+estimations using BFS. (Hint: Treat restaurants and deliveries as nodes.)
+19. Build a bank transaction recorder using a queue to process transactions in order. (Hint: 
+FIFO processing of deposits/withdrawals.)
+Transactions:
+Deposit 500
+Withdraw 200
+Deposit 1000
+Withdraw 300
+20. Develop a railway timetable sorting tool where arrival times are sorted using insertion 
+sort and selection sort. Compare their performance. (Hint: Time-based sorting 
+comparison.)
+21. Implement a polynomial calculator using linked lists where polynomials can be created, 
+added, and simplified. (Hint: Each node contains coefficient and power.)
+22. Simulate a campus navigation system using weighted graphs where buildings are nodes; 
+display shortest path using BFS (for unweighted). (Use adjacency list for efficiency.)
+Buildings:
+Library, Canteen, Lab, Admin, Hostel
+Connections:
+Library–Lab
+Lab–Hostel
+Canteen–Library
+Admin–Hostel
+Find path: Canteen → Hostel
+23. Build a shipment tracking queue where parcels enter the system and are processed in 
+the order they arrive using a linear queue. (Hint: Simple FIFO process.)
+Enter parcels: P100, P102, P105, P110, etc.
